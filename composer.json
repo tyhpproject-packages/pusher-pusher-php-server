@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/pusher-pusher-php-server",
+    "description": "Tyhp type definitions for pusher/pusher-php-server 7.3.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "7.3.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/pusher-pusher-php-server-impl": "~7.3.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/pusher-pusher-php-server-impl"
+        }
+    }
+}
